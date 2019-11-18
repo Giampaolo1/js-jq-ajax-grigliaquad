@@ -11,14 +11,21 @@ $( document ).ready(function() {
     $.ajax({
       url: "https://flynn.boolean.careers/exercises/api/random/int",
       method: "GET",
-      success: function(){
+      success: function(datiRitorno){
+        console.log(datiRitorno);
+        if (response <= 5) {
+          // .square background-color:yellow
+        }
+        else {
+          // .square background-color:green
+        }
 
       },
       error: function(){
         console.log("Errore");
       }
 
-    }
-
+    });
+  });
 
 });
