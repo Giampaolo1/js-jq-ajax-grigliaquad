@@ -6,7 +6,12 @@
   box-sizing: border-box;
 }
 
-/* font */
-body {
-  font-family: 'Roboto', sans-serif;
+.square {
+  width:70px;
+	height:70px;
+  border: black solid 0.5px;
+}
+
+.linea {
+  display: flex;
 }
