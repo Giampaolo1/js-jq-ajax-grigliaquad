@@ -5,7 +5,6 @@
 // se è > di 5 il quadrato diventa verde.
 // Il numero ottenuto appare al centro del quadrato
 
-var elemento = $(".square")
 
 $( document ).ready(function() {
 
