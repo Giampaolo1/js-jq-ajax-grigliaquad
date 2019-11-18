@@ -31,6 +31,7 @@ $( document ).ready(function() {
         }
 
         elemento.html(datiRitorno.response);
+        console.log(datiRitorno.response);
 
 
       },
