@@ -30,8 +30,9 @@ $( document ).ready(function() {
           clickedSquare.addClass('green');
         }
 
-        elemento.html(datiRitorno.response);
-        console.log(datiRitorno.response);
+        // elemento.html(datiRitorno.response);
+        // console.log(datiRitorno.response);
+        clickedSquare.text(datiRitorno.response)
 
 
       },
